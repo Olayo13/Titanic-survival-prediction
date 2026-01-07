@@ -1,0 +1,32 @@
+# --- Python y Archivos Compilados ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# Estos son los puntos de control automáticos que crea Jupyter (son basura)
+.ipynb_checkpoints/
+
+# --- Entornos Virtuales (¡Muy Importante!) ---
+# No queremos subir las librerías instaladas, pesan mucho y cada quien debe instalarlas.
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Archivos del Sistema Operativo ---
+# Basura que crean Mac y Windows
+.DS_Store
+Thumbs.db
+
+# --- IDEs y Editores ---
+# Configuraciones de VS Code o PyCharm
+.vscode/
+.idea/
+
+# --- Datos (Opcional) ---
+# En proyectos reales, NUNCA se suben los datos si pesan más de 100MB.
+# Para Titanic (que es ligero) puedes dejarlos comentados con # para que SÍ se suban.
+# data/
+# *.csv
